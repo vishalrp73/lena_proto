@@ -1,0 +1,12 @@
+.body-wrapper {
+    /* 
+        change width to 100% if wanting to scale
+        or keep as 1920px
+    */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0px 50px;
+    background-color: #F2F2F2;
+}

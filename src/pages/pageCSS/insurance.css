@@ -1,0 +1,188 @@
+.insurance-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ins_panel-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.insurance-panel_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 25px auto;
+}
+
+.ins_panel-title_1 {
+    width: 50%;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 50px auto 50px 50px;
+}
+
+.ins-quote_btn {
+    margin: 50px 50px auto auto;
+    width: 310px;
+    height: 90px;
+    background-color: rgba(24, 168, 251);
+    border: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ins_panel-bot {
+    display: flex;
+    flex-direction: row;
+}
+
+.ins_pol-wrap {
+    width: 30%;
+    margin: 0 50px;
+}
+
+.ins_pol-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.ins_pol-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ins_pol-text {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.ins_lm-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: #A7A7A7;
+}
+
+.ins_comp-btn {
+    width: 480px;
+    height: 65px;
+    border-radius: 6px;
+    border: 1px solid #18A0FB;
+    background-color: #FFFFFF;
+    color: #8C8C8C;
+    font-size: 28px;
+    text-align: center;
+}
+
+#panel_1_quote-btn {
+    margin: 50px auto;
+}
+
+/* Insurance Panel 2 CSS */
+
+.insurance-panel_2 {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    margin: 25px auto;
+    flex-direction: column;
+}
+
+.ins_panel-title {
+    font-size: 48px;
+    font-weight: 500;
+    margin: 50px;
+}
+
+.bene {
+    display: flex;
+}
+
+.ins_panel-2-left, .ins_panel-2-right {
+    display: flex;
+    width: 40%;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+.benefit-box {
+    width: 100%;
+    display: flex;
+}
+
+.tick-img {
+    width: 10%;
+    margin: 0px auto auto auto;
+}
+
+.benefit-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 20px auto;
+}
+
+.benefit-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.benefit-text {
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.panel_2_btns {
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel_2_quote-btn {
+    margin: 0 20px;
+}
+
+.retrieve_quote-btn {
+    width: 310px;
+    height: 90px;
+    background-color: #FFFFFF;
+    font-size: 24px;
+    color: #8C8C8C;
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+}
+
+/* Panel 3 - Compare Insurance Cover CSS */
+
+.insurance-panel_3 {
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.compare_graph {
+    height: 550px;
+    width: 85%;
+    margin: 25px auto;
+}
+
+.ins_faq-btn {
+    width: 310px;
+    height: 90px;
+    margin: 25px auto 50px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #18A0FB;
+    font-size: 36px;
+    color: #8C8C8C;
+}

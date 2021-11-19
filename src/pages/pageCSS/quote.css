@@ -1,0 +1,218 @@
+.quote-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 25px 0px;
+    margin: 0 auto 25px auto;
+}
+
+.quick-panel, .driver-panel {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.quick-title-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.quote-title {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.retrieve-quote_btn {
+    width: 310px;
+    height: 90px;
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #8C8C8C;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto 50px auto auto;
+    cursor: pointer;
+}
+
+.quote-subtitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.quick-input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-box {
+    display: flex;
+    width: 100%;
+}
+
+.quick-text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.quick-user-input {
+    margin: auto 0 auto auto;
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.personal-business {
+    margin: auto 0 auto auto;
+}
+
+.pers_bus-btn {
+    width: 125px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #8C8C8C;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.pers_bus-btn:active {
+    background-color: black;
+    color: white;
+}
+
+/* Driver Details Panel CSS */
+
+.quote-sub-sub {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.details-wrapper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.temp-wrap {
+    display: flex;
+}
+
+.detail-box {
+    display: flex;
+}
+
+.detail-text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.detail-input-box {
+    margin: auto 0 auto auto;
+    width: 40%;
+}
+
+.dob-input, .gender-input, .select-input {
+    padding: 10px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.dob-input {
+    width: 33%;
+    
+}
+
+.gender-input {
+    width: 50%;
+}
+
+.select-input {
+    width: 100%;
+}
+
+.send_quote-btn {
+    width: 310px;
+    height: 50px;
+    background-color: rgba(24, 160, 251, 0.5);
+    margin: auto auto 0 auto;
+    border: none;
+    border-radius: 6px;
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.add-driver-btn {
+    width: 310px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(24, 160, 251, 0.5);
+    margin: 25px auto 25px 5%;
+    font-size: 28px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.driver-core-btns {
+    display: flex;
+    margin: auto 5% auto auto;
+}
+
+.driver-core-btn {
+    width: 310px;
+    height: 90px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 6px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+#get-quote-btn {
+    background-color: rgba(24, 160, 251, 0.7);
+    color: #FFFFFF;
+    font-size: 24px;
+    border: none;
+}
+
+#pay-btn {
+    border: 1px solid #18A0FB;
+    color: #8C8C8C;
+    background-color: #FFFFFF;
+}
+
+/* Why Choose Turners Panel CSS */
+
+.why-wrapper {
+    width: 90%;
+    padding: 50px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.why-turners-title {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.why-sub {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.why-img {
+    width: 65%;
+    height: 400px;
+    background-color: grey;
+    margin: 50px auto;
+}
