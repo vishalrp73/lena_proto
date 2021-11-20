@@ -45,14 +45,6 @@ const Footer = () => {
         'Contact Us'
     ]
 
-    const contactModule = [
-        { title: 'Branch Details', img: 'bd' },
-        { title: 'Facebook', img: 'fb' },
-        { title: 'Newsletter', img: 'news' },
-        { title: 'Email Alerts', img: 'ea' },
-        { title: 'Instagram', img: 'ig' }
-    ]
-
 
     return (
         <div className = 'footer-wrapper'>
